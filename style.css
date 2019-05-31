@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+html{font-family: 'Quicksand', sans-serif;
+height: 100vh;
+margin:2%;
+padding:1%;
+box-sizing: border-box;
+
+}
+.gallery{
+	width:90vh;
+	padding:10%;
+	display:grid;
+	margin:5%;
+	grid-template-columns: repeat(auto minmax(20rem 1fr));
+	grid-gap: 5vh;
+	text-align:center;
+
+}
+.nav{display: flex;
+justify-content: space-between;
+flex:1;
+}
+.title{color:white;
+font-size: 0.9rem;
+background-color: black;
+padding:15px;
+}
+/*
+.class{
+	background: url("ellen1.jpg");
+	height: 70vh;
+    margin: auto;
+    overflow: auto;
+	background-position: ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+*/
+blockquote{padding-top:5%;
+font-weight: bold;
+text-align: justify;
+}
+
+.one{padding:0;}
+.top{
+
+	max-height: 400px;
+	max-width: 1020px;
+	display:flex;
+	flex-basis: repeat(auto minmax(20rem 1 fr));
+	flex:1;
+	
+}
+
+.more{float:left;
+text-align: center;
+padding:1.6rem;
+color:white;
+background: pink;
+text-decoration: none;}
+
+.more:hover{background: black;
+color:pink;
+text-transform: uppercase;
+border:none;}
+
+.none{border:2px solid black;
+padding:20px;
+margin:0;
+padding:20px;
+padding:20px;
+	font-size:1.1rem;
+	font-weight:400;
+	text-align: justify;
+	flex:1;
+	line-height: 150%;}
+
+.none1{border:2px solid black;
+padding:20px;
+}
+
+.topnav{overflow: hidden;
+}
+
+.topnav a{float:right;
+text-align: center;
+padding:1.7rem;
+color:black;
+text-decoration: none;
+}
+
+.topnav a:hover{background: black;
+color:white;}
+.topnav a.active{background:black;
+color:pink;}
+
+.container{
+
+	padding: 2%;
+	font-size:1.1rem;
+	font-weight:400;
+	text-align: justify;
+	flex:1;
+	line-height: 150%;
+
+}
+.last{
+background:#f8f8f8;
+padding: 5%;
+text-align: center;}
+
+
+.prof{margin:1%;
+padding:1%;
+line-height: 150%;
+letter-spacing: 1 rem;
+display:inline-block;
+text-align: justify;}
+
+.heads{display: flex;
+justify-content: space-between;}
+
+.zela a{
+text-align: center;
+padding:3%;
+color:black;
+text-decoration: none;
+background:#f8f8f8;
+line-height: 3rem;}
+ 
+.zela a:hover{background: black;
+color:pink;}
+
+.won{
+text-align: center;
+padding:2%;
+color:orange;
+font-weight: pink;
+text-decoration: none;
+background:#f8f8f8;}
+
+.won:hover{background: black;
+color:pink;
+font-size:1.5rem;
+text-transform: uppercase;
+}
